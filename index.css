@@ -1,0 +1,45 @@
+.reveal{
+  opacity: .1;
+  transition: all .3s ease-out;
+}
+
+.reveal.active{
+  opacity: 1;
+}
+
+.left2right{
+  transform: translateX(-150px);
+}
+.left2right.active{
+  transform: translateX(0);
+}
+.right2left{
+  transform: translateX(150px);
+}
+.right2left.active{
+  transform: translateX(0);
+}
+.up2down{
+  transform: translateY(-150px);
+}
+.up2down.active{
+  transform: translateY(0);
+}
+.down2up{
+  transform: translateY(150px);
+}
+.up2down.active{
+  transform: translateY(0);
+}
+.fadeIn{
+  transform: scale(.6);
+}
+.fadeIn.active{
+  transform: scale(1);
+}
+.fadeOut{
+  transform: scale(1.4);
+}
+.fadeOut.active{
+  transform: scale(1);
+}
